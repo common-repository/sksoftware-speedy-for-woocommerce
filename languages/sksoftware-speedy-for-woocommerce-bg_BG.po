@@ -1,0 +1,854 @@
+# Copyright (C) 2023 Simeon Kolev & Martin Shterev from SK Software Ltd.
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: SKSoftware Speedy for WooCommerce 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sksoftware-speedy-"
+"for-woocommerce\n"
+"POT-Creation-Date: 2023-10-28T20:14:34+00:00\n"
+"PO-Revision-Date: 2023-10-28 23:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Domain: sksoftware-speedy-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "SKSoftware Speedy for WooCommerce"
+msgstr "SKSoftware Speedy za  WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://sk-soft.net/plugins/speedy-for-woocommerce/"
+msgstr "https://sk-soft.net/plugins/speedy-for-woocommerce/"
+
+#. Description of the plugin
+msgid "This plugin integrates Speedy shipping method for WooCommerce."
+msgstr "Това разширение интегрира Speedy метод за доставка за WooCommerce"
+
+#. Author of the plugin
+msgid "Simeon Kolev & Martin Shterev from SK Software Ltd."
+msgstr "Simeon Kolev & Martin Shterev от ЕС КЕЙ СОФТУЕР ЕООД."
+
+#. Author URI of the plugin
+msgid "https://sk-soft.net"
+msgstr "https://sk-soft.net"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:117
+msgid ""
+"SKSoftware Speedy for WooCommerce requires WooCommerce to be installed and "
+"active."
+msgstr ""
+"SKSoftware Speedy за WooCommerce изисква разширението WooCommerce да бъде "
+"инсталирано и включено."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:150
+msgid "WooCommerce currency is set to one of BGN, EUR, USD, GBP, CHF, JPY, RUB"
+msgstr "WooCommerce валутата да бъде една от BGN, EUR, USD, GBP, CHF, JPY, RUB"
+
+#. translators: %s: Error message
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:158
+msgid "SKSoftware Speedy for WooCommerce requires that %s"
+msgstr "SKSoftware Speedy за WooCommerce изисква да %s"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:162
+msgid "and"
+msgstr "и"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:185
+msgid ""
+"Please clear cache before you start using the SKSoftware Speedy for "
+"WooCommerce plugin."
+msgstr ""
+"Моля, изчистете кеша преди да започнете да използвате разширението "
+"SKSoftware Speedy за WooCommerce."
+
+#. translators: %s: settings link
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:206
+msgid "<a href=\"%s\">Settings</a>"
+msgstr "<a href=\"%s\">Настройки</a>"
+
+#. translators: %s: shipping methods link
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:212
+msgid "<a href=\"%s\">Shipping methods</a>"
+msgstr "<a href=\"%s\">Методи за доставка</a>"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:234
+msgid ""
+"Your free trial has started successfully. You can now use the plugin for "
+"free for 14 days."
+msgstr ""
+"Вашият пробен период започна успешно. Можете да използвате разширението "
+"безплатно за 14 дни."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:240
+msgid "Your free trial has failed to start. Please try again later."
+msgstr "Вашият пробен период не успя да започне. Моля, опитайте пак по-късно."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:260
+msgid "Start free trial"
+msgstr "Започни пробен период"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:275
+msgid "You are one step away from getting your API key."
+msgstr "Още една стъпка за да вземете Вашият API ключ."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:283
+msgid ""
+"Please enter your email address and we will fill your API key automatically."
+msgstr ""
+"Моля, въведете Вашият имейл адрес и ние ще попълним Вашият API ключ "
+"автоматично."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:292
+msgid "Your email address"
+msgstr "Вашият имейл адрес"
+
+#. translators: 1: Privacy policy link 2: Terms & Agreements link 3: License policy link
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:307
+msgid ""
+"I accept the <a target=\"_blank\" href=\"%1$s\">privacy policy</a>, <a "
+"target=\"_blank\" href=\"%2$s\">terms & agreements</a> and <a "
+"target=\"_blank\" href=\"%3$s\">license policy</a>"
+msgstr ""
+"Съгласявам се  с <a target=\"_blank\" href=\"%1$s\">политика за "
+"поверителност</a>, <a target=\"_blank\" href=\"%2$s\">общи условия</a> и <a "
+"target=\"_blank\" href=\"%3$s\">лицензионно споразумение</a>"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:323
+msgid "Get license"
+msgstr "Вземи лиценз"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:47
+msgid "Bulk generate Speedy shipments"
+msgstr "Масово генериране на Speedy пратки"
+
+#. translators: %s: Shipment number
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:89
+#: admin/class-sksoftware-speedy-for-woocommerce-create-shipment-order-action.php:80
+#: includes/class-sksoftware-speedy-for-woocommerce.php:647
+msgid "Speedy shipment created."
+msgstr "Създадена Speedy пратка."
+
+#. translators: %s: Shipment number
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:89
+#: admin/class-sksoftware-speedy-for-woocommerce-create-shipment-order-action.php:80
+#: includes/class-sksoftware-speedy-for-woocommerce.php:650
+msgid "Shipment ID %s."
+msgstr "Пратка  № %s."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-create-shipment-order-action.php:58
+msgid "Create Speedy shipment"
+msgstr "Създай Speedy пратка"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-create-shipment-order-action.php:70
+#: admin/class-sksoftware-speedy-for-woocommerce-delete-shipment-order-action.php:72
+#: admin/class-sksoftware-speedy-for-woocommerce-print-shipment-label-order-action.php:69
+msgid "Order shipping method must be Speedy."
+msgstr "Поръчката трябва да е с метод за доставка Speedy."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-delete-shipment-order-action.php:60
+msgid "Delete Speedy shipment"
+msgstr "Изтрий Speedy пратка"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-delete-shipment-order-action.php:80
+msgid "Unable to delete Speedy shipment."
+msgstr "Не успяхме да изтрием Speedy пратка."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-delete-shipment-order-action.php:83
+msgid "Speedy shipment deleted."
+msgstr "Пратката изтрита "
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:70
+msgid "Settings for your Speedy shipment."
+msgstr "Настройки за вашата Speedy пратка."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:95
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:142
+msgid "Invalid post type."
+msgstr "Невалиден тип публикация."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:149
+#: includes/class-sksoftware-speedy-for-woocommerce.php:628
+msgid "Order shipping method is not Speedy."
+msgstr "Методът за доставка на поръчката не е Speedy."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:268
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:288
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:295
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:370
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:378
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:425
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:438
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:451
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:465
+msgid "No"
+msgstr "Не"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:269
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:289
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:296
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:379
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:426
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:439
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:466
+msgid "Yes"
+msgstr "Да"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:275
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:347
+msgid "Carton box"
+msgstr "Кашон"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:276
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:348
+msgid "Envelope"
+msgstr "Плик"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:277
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:349
+msgid "Bag"
+msgstr "Чувал"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:278
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:350
+msgid "Box"
+msgstr "Кутия"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:279
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:351
+msgid "Box in envelope"
+msgstr "Кутия в плик"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:280
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:352
+msgid "Stretch foil"
+msgstr "Стреч фолио"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:281
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:353
+msgid "Bubble foil"
+msgstr "Фолио с балончета"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:282
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:354
+msgid "Nylon"
+msgstr "Найлон"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:302
+msgid "Deliver to Office"
+msgstr "Доставяне до офис"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:303
+msgid "Deliver to Address"
+msgstr "Доставка до адрес"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:304
+msgid "Deliver to APT"
+msgstr "Доставка до АПС"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:319
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:325
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:342
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:348
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:173
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:176
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:209
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:212
+msgid "Please choose"
+msgstr "Моля, изберете"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:356
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:363
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:321
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:334
+msgid "Your client will pay"
+msgstr "Клиентът Ви ще плати"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:357
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:364
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:322
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:335
+msgid "I will pay"
+msgstr "Вие ще платите"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:371
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:452
+msgid "Open"
+msgstr "Отвори"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:372
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:453
+msgid "Open and test"
+msgstr "Отвори и тествай"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:385
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:478
+msgid "Cash"
+msgstr "Наложен платеж"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:386
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:479
+msgid "Postal money transfer"
+msgstr "Пощенски паричен превод"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-print-shipment-label-order-action.php:54
+msgid "Print Speedy shipment label"
+msgstr "Отпечатайте етикет за пратка Speedy"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-print-shipment-label-order-action.php:78
+msgid "Failed to print shipment label."
+msgstr "Неуспешно отпечатване на етикета на пратката."
+
+#: admin/class-sksoftware-speedy-for-woocommerce-recalculate-shipping-order-action.php:58
+msgid "Recalculate Speedy shipping"
+msgstr "Преизчисли Speedy доставка"
+
+#: admin/class-sksoftware-speedy-for-woocommerce-recalculate-shipping-order-action.php:92
+msgid "Speedy shipping recalculated."
+msgstr "Преизчислена Speedy доставка."
+
+#: admin/partials/meta_box_form_field.php:16
+msgid "Weight (in %s)"
+msgstr "Тегло (в %s)"
+
+#: admin/partials/meta_box_form_field.php:21
+msgid "Height (in %s)"
+msgstr "Височина (в %s)"
+
+#: admin/partials/meta_box_form_field.php:26
+msgid "Width (in %s)"
+msgstr "Ширина (в %s)"
+
+#: admin/partials/meta_box_form_field.php:31
+msgid "Length (in %s)"
+msgstr "Дължина (в %s)"
+
+#: admin/partials/meta_box_form_field.php:34
+msgid "Delivery type"
+msgstr "Тип доставка"
+
+#: admin/partials/meta_box_form_field.php:35
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:162
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:137
+msgid "Office"
+msgstr "Офис"
+
+#: admin/partials/meta_box_form_field.php:36
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:187
+msgid "APT"
+msgstr "АПС"
+
+#: admin/partials/meta_box_form_field.php:37
+msgid "Recipient Name"
+msgstr "Име на получателя"
+
+#: admin/partials/meta_box_form_field.php:38
+msgid "Recipient Email"
+msgstr "Имейл на получателя"
+
+#: admin/partials/meta_box_form_field.php:39
+msgid "Recipient Postal Code"
+msgstr "Пощенски код на получателя"
+
+#: admin/partials/meta_box_form_field.php:40
+msgid "Recipient City"
+msgstr "Град на получателя"
+
+#: admin/partials/meta_box_form_field.php:41
+msgid "Recipient Address Line 1"
+msgstr "Ред 1 на адреса на получателя"
+
+#: admin/partials/meta_box_form_field.php:42
+msgid "Recipient Address Line 2"
+msgstr "Ред 2 на адреса на получателя"
+
+#: admin/partials/meta_box_form_field.php:43
+msgid "Recipient Address Number"
+msgstr "Номер на адреса на получателя"
+
+#: admin/partials/meta_box_form_field.php:44
+msgid "Recipient Phone"
+msgstr "Телефон на получателя"
+
+#: admin/partials/meta_box_form_field.php:45
+msgid "Recipient Vat Number"
+msgstr "ДДС номер на получателя"
+
+#: admin/partials/meta_box_form_field.php:46
+msgid "Delivery Product"
+msgstr "Продукт"
+
+#: admin/partials/meta_box_form_field.php:47
+msgid "Content"
+msgstr "Съдържание"
+
+#: admin/partials/meta_box_form_field.php:48
+msgid "Is fragile?"
+msgstr "Чуплив ли е?"
+
+#: admin/partials/meta_box_form_field.php:49
+msgid "Declare amount?"
+msgstr "Деклариране на сума?"
+
+#: admin/partials/meta_box_form_field.php:50
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:430
+msgid "Declared amount"
+msgstr "Декларирана сума"
+
+#: admin/partials/meta_box_form_field.php:51
+msgid "Cash on delivery?"
+msgstr "Наложен платеж?"
+
+#: admin/partials/meta_box_form_field.php:52
+msgid "Cash on delivery amount"
+msgstr "Наложен платен сума"
+
+#: admin/partials/meta_box_form_field.php:53
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:313
+msgid "Delivery payee"
+msgstr "Платец на доставката"
+
+#: admin/partials/meta_box_form_field.php:54
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:326
+#, fuzzy
+#| msgid "Return shipping payee"
+msgid "Return payee"
+msgstr "Платец на обратна доставка"
+
+#: admin/partials/meta_box_form_field.php:55
+msgid "Open or test before paying?"
+msgstr "Отворете или тествайте преди плащане?"
+
+#: admin/partials/meta_box_form_field.php:59
+msgid "Saturday delivery?"
+msgstr "Доставка в събота?"
+
+#: admin/partials/meta_box_form_field.php:60
+msgid "Package type"
+msgstr "Опаковка"
+
+#: admin/partials/meta_box_form_field.php:61
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:470
+msgid "CoD processing type"
+msgstr "Тип обработка на НП"
+
+#: admin/partials/meta_box_form_field.php:67
+msgid "N/A"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:76
+msgid "Shipment content (items)."
+msgstr "Съдържание на пратката (артикули)."
+
+#: admin/partials/meta_box_form_field.php:77
+msgid "Shipment item quantity."
+msgstr "Количество на пратката."
+
+#: admin/partials/meta_box_output.php:7
+msgid "Unable to connect to Speedy API."
+msgstr "Не може да се свърже със Speedy API."
+
+#: admin/partials/meta_box_output.php:14
+msgid "General"
+msgstr "Общи"
+
+#: admin/partials/meta_box_output.php:19
+msgid "Recipient"
+msgstr "Получател"
+
+#: admin/partials/meta_box_output.php:24
+msgid "Shipping"
+msgstr "Доставка"
+
+#: admin/partials/meta_box_output.php:132
+msgid ""
+"It is strongly advised to change order status back to \"Pending payment\" "
+"when recalculating shipping price. Your client will not be notified about "
+"this change."
+msgstr ""
+"Силно се препоръчва да промените статуса на поръчката обратно на „Плащане в "
+"очакване“, когато преизчислявате цената за доставка. Вашият клиент няма да "
+"бъде уведомен за тази промяна."
+
+#: admin/partials/meta_box_output.php:140
+msgid "Recalculate shipping"
+msgstr "Преизчисляване на доставката"
+
+#: admin/partials/meta_box_output.php:144
+msgid "Create shipment"
+msgstr "Създаване на пратка"
+
+#: admin/partials/meta_box_output.php:153
+msgid "Track shipment"
+msgstr "Проследяване на пратката"
+
+#: admin/partials/meta_box_output.php:157
+msgid "Review in courier"
+msgstr "Преглед с куриер"
+
+#: admin/partials/meta_box_output.php:161
+msgid "Delete shipment"
+msgstr "Изтриване на пратката"
+
+#: admin/partials/meta_box_output.php:165
+msgid "Print label"
+msgstr "Печат на етикет"
+
+#: admin/partials/settings_table_html.php:17
+msgid "Actions"
+msgstr "Действия"
+
+#: admin/partials/settings_table_html.php:25
+msgid "Add new row"
+msgstr "Добавяне на нов ред"
+
+#: admin/partials/settings_table_row_html.php:15
+msgid "Delete"
+msgstr "Изтриване"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-api-client.php:354
+#: includes/class-sksoftware-speedy-for-woocommerce-api-client.php:363
+msgid "Unable to create Speedy shipment."
+msgstr "Не може да се създаде Speedy пратка."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:49
+msgid "Allows customers to receive shipments using Speedy."
+msgstr "Позволява на клиентите да получават пратки чрез Speedy."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:120
+msgid "SK Software API Key"
+msgstr "SK Софтуерен API ключ"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:124
+msgid ""
+"API Key provided by SK Software Ltd. You can buy a license on %1$s or %2$s"
+msgstr ""
+"API ключ, предоставен от SK Software Ltd. Можете да закупите лиценз на %1$s "
+"или %2$s"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:134
+msgid "Username"
+msgstr "Потребителско име"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:136
+msgid "You can get your username and password by contacting Speedy."
+msgstr ""
+"Можете да получите вашето потребителско име и парола, като се свържете със "
+"Speedy."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:143
+msgid "Password"
+msgstr "Парола"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:154
+msgid "Send from"
+msgstr "Изпращане от"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:156
+msgid "Choose whether you will ship your orders from Speedy Office or Address."
+msgstr "Изберете дали ще изпращате поръчките си от офис на Спиди или от адрес."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:160
+msgid "office"
+msgstr "офис"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:163
+msgid "Address"
+msgstr "Адрес"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:167
+msgid "Client to send from"
+msgstr "Клиент за изпращане"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:169
+msgid "Choose from which Speedy client you will send your orders."
+msgstr "Изберете от кой клиент на Спиди ще изпращате поръчките си."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:182
+msgid "Sender name"
+msgstr "Име на изпращача"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:184
+msgid "Your first and last name."
+msgstr "Вашето име и фамилия."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:188
+msgid "Sender phone number"
+msgstr "Телефонен номер на изпращача"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:190
+msgid "Your phone number."
+msgstr "Вашият телефонен номер."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:194
+msgid "Sender e-mail address"
+msgstr "Имейл адрес на изпращача"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:196
+msgid "Your e-mail address."
+msgstr "Вашият имейл адрес."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:203
+msgid "Office to send from"
+msgstr "Офис за изпращане"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:205
+msgid "Choose from which Speedy office you will send your orders."
+msgstr "Изберете от кой офис на Спиди ще изпращате поръчките си."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:218
+msgid "Send tracking link"
+msgstr "Изпрати  връзка за проследяване"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:220
+msgid ""
+"This option can send the tracking number of the shipment to the customer. If "
+"the shipment you generated has a tracking number, it will automatically send "
+"a note to the customer."
+msgstr ""
+"Тази опция може да изпрати номера за проследяване на пратката на клиента. "
+"Ако генерираната от вас пратка има номер за проследяване, тя автоматично ще "
+"изпрати бележка до клиента."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:234
+msgid "Title"
+msgstr "Заглавие"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:236
+msgid ""
+"This controls the title of the shipping method, which the user sees during "
+"checkout."
+msgstr ""
+"Това контролира заглавието на метода на доставка, което потребителят вижда "
+"по време на плащане."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:243
+msgid "Description"
+msgstr "Описание"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:245
+msgid ""
+"This controls the description of the shipping method, which the user sees "
+"during checkout."
+msgstr ""
+"Това контролира описанието на метода на доставка, което потребителят вижда "
+"по време на плащане."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:315
+msgid "This controls who will pay for the delivery of your shipment."
+msgstr "Това контролира кой ще плати за доставката на вашата пратка."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:328
+#, fuzzy
+#| msgid "This controls who will pay for the delivery of your shipment."
+msgid "This controls who will pay the return shipping of your shipment."
+msgstr "Това контролира кой ще плати за доставката на вашата пратка."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:339
+msgid "Default package type"
+msgstr "Опаковка по подразбиране"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:340
+#, fuzzy
+#| msgid "Length to be used for shipment volume."
+msgid "Package type to be used for shipments."
+msgstr "Дължина, която да се използва за обем на пратката."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:360
+msgid "Default product weight in %s"
+msgstr "Тегло на продукта по подразбиране в %s"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:364
+msgid "Weight to be used for products that are without weight."
+msgstr "Тегло, което да се използва за продукти без тегло."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:373
+msgid "Default box height in %s"
+msgstr "Височина на полето по подразбиране в %s"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:383
+msgid "Default box width in %s"
+msgstr "Ширина на полето по подразбиране в %s"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:387
+msgid "Width to be used for shipment volume."
+msgstr "Ширина, която да се използва за обема на пратката."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:393
+msgid "Default box length in %s"
+msgstr "Дължина на кутията по подразбиране в %s"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:397
+msgid "Length to be used for shipment volume."
+msgstr "Дължина, която да се използва за обем на пратката."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:401
+msgid "Speedy service"
+msgstr "Speedy услуга"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:405
+msgid ""
+"Choose which Speedy service to be used. More information about delivery "
+"time, pricing and maximum weight of each service can be found in %s."
+msgstr ""
+"Изберете коя услуга на Speedy да използвате. Повече информация за времето за "
+"доставка, ценообразуването и максималното тегло на всяка услуга можете да "
+"намерите в %s."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:417
+msgid "Fragile label"
+msgstr "Чуплив етикет"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:419
+msgid "Choose if your shipment should be marked as fragile."
+msgstr "Изберете дали вашата пратка да бъде маркирана като чуплива."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:432
+msgid ""
+"Choose if your shipment should have a declared amount. The declared amount "
+"will be equal to the order price, exluding shipping."
+msgstr ""
+"Изберете дали вашата пратка да е с обявена сума. Обявената сума ще бъде "
+"равна на цената на поръчката, без доставката."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:443
+msgid "Open and/or test before payment"
+msgstr "Отворете и/или тествайте преди плащане"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:445
+msgid "Can the recipient open and/or test the shipment before paying?"
+msgstr ""
+"Може ли получателят да отвори и/или да тества пратката, преди да плати?"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:457
+msgid "Saturday delivery"
+msgstr "Доставка в събота"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:459
+msgid "Can the recipient receive his package on Saturday?"
+msgstr "Може ли получателят да получи пакета си в събота?"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:472
+msgid ""
+"How would you like to receive your money when sending shipments with CoD?"
+msgstr "Как бихте искали да получавате парите си при изпращане на пратки с НП?"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:483
+msgid "Pricing override"
+msgstr "Отмяна на цените"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:485
+msgid ""
+"This table allows you to change the price according to the conditions set in "
+"it. You can learn more about how it works and sample settings for different "
+"cases in our documentation."
+msgstr ""
+"Тази таблица ви позволява да променяте цената според условията, заложени в "
+"нея. Можете да научите повече за това как работи и примерни настройки за "
+"различни случаи в нашата документация."
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:491
+msgid "Type"
+msgstr "Тип"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:494
+msgid "Flat rate"
+msgstr "Фиксирана ставка"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:495
+msgid "Merchant pays all below"
+msgstr "Търговецът плаща всичко по-долу"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:499
+msgid "Merchant pays all above"
+msgstr "Търговецът плаща всичко по-горе"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:506
+msgid "Order amount equal or above"
+msgstr "Сумата на поръчката е равна или по-висока"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:512
+msgid "Weight equal or below in %s"
+msgstr "Тегло равно или по-малко в %s"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:518
+msgid "Shipping cost equals"
+msgstr "Разходите за доставка са равни"
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:603
+msgid ""
+"Unable to authenticate Speedy. Please check your API keys and try again."
+msgstr ""
+"Не може да се удостовери Speedy. Моля, проверете вашите API ключове и "
+"опитайте отново."
+
+#: includes/class-sksoftware-speedy-for-woocommerce.php:623
+msgid "Order not found."
+msgstr "Поръчката не е намерена."
+
+#: includes/class-sksoftware-speedy-for-woocommerce.php:637
+msgid "Shipment already created."
+msgstr "Пратката вече е създадена."
+
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:136
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:140
+msgid "Select an office"
+msgstr "Изберете офис"
+
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:186
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:192
+msgid "Select APT"
+msgstr "Изберете APT"
+
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:245
+msgid "<strong>Office</strong> is required field."
+msgstr "<strong>Офис</strong> е задължително поле."
+
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:262
+msgid "<strong>APT</strong> is required field."
+msgstr "<strong>APT</strong> е задължително поле."
+
+#~ msgid "Recipient will pay for shipping"
+#~ msgstr "Получателят ще плати за доставка"
+
+#~ msgid "Sender will pay for shipping"
+#~ msgstr "Подателят ще плати за доставката"
+
+#~ msgid "Service payee"
+#~ msgstr "Платец на услугата"
+
+#~ msgid "Who will pay the shipping service?"
+#~ msgstr "Кой ще плати услугата за доставка?"
+
+#~ msgid "RECIPIENT"
+#~ msgstr "ПОЛУЧАТЕЛ"
+
+#~ msgid "Sender"
+#~ msgstr "Подател"
+
+#~ msgid ""
+#~ "This controls how the speedy shipping method will handle the delivery: "
+#~ "will it deliver to office or address. You can setup multiple Speedy "
+#~ "shipping methods to have both delivery types."
+#~ msgstr ""
+#~ "Това контролира как методът за Speedy доставка ще се справи с доставката: "
+#~ "дали ще бъде доставен до офис или адрес. Можете да настроите няколко "
+#~ "метода за доставка на Speedy, за да имате и двата вида доставка."
+
+#~ msgid "false"
+#~ msgstr "невярно"
+
+#~ msgid ""
+#~ "Choose who pays the return of the shipment if it is declined or cancelled."
+#~ msgstr ""
+#~ "Изберете кой да плати връщането на пратката, ако тя бъде отказана или "
+#~ "анулирана."
+
+#~ msgid "NO"
+#~ msgstr "НЕ"
+
+#~ msgid "CASH"
+#~ msgstr "ПАРИ"

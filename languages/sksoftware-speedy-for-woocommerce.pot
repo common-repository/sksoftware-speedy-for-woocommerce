@@ -1,0 +1,760 @@
+# Copyright (C) 2024 Simeon Kolev & Martin Shterev from SK Software Ltd.
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: SKSoftware Speedy for WooCommerce 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sksoftware-speedy-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-23T18:18:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.0\n"
+"X-Domain: sksoftware-speedy-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "SKSoftware Speedy for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://sk-soft.net/plugins/speedy-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin integrates Speedy shipping method for WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "Simeon Kolev & Martin Shterev from SK Software Ltd."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://sk-soft.net"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:117
+msgid "SKSoftware Speedy for WooCommerce requires WooCommerce to be installed and active."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:150
+msgid "WooCommerce currency is set to one of BGN, EUR, USD, GBP, CHF, JPY, RUB"
+msgstr ""
+
+#. translators: %s: Error message
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:158
+msgid "SKSoftware Speedy for WooCommerce requires that %s"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:162
+msgid "and"
+msgstr ""
+
+#. translators: %s: settings link
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:187
+msgid "<a href=\"%s\">Settings</a>"
+msgstr ""
+
+#. translators: %s: shipping methods link
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:193
+msgid "<a href=\"%s\">Shipping methods</a>"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:301
+msgid "Your free trial has started successfully. You can now use the plugin for free for 14 days."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:307
+msgid "Your free trial has failed to start. Please try again later."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:332
+msgid "Start free trial"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:348
+msgid "You are one step away from getting your API key."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:356
+msgid "Please enter your email address and we will fill your API key automatically."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:368
+msgid "Your email address"
+msgstr ""
+
+#. translators: 1: Privacy policy link 2: Terms & Agreements link 3: License policy link
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:384
+msgid "I accept the <a target=\"_blank\" href=\"%1$s\">privacy policy</a>, <a target=\"_blank\" href=\"%2$s\">terms & agreements</a> and <a target=\"_blank\" href=\"%3$s\">license policy</a>"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-admin.php:408
+msgid "Get license"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:46
+msgid "Generate Speedy shipments"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:123
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:150
+msgid "Order"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:127
+#: admin/partials/meta_box_output.php:165
+msgid "Print label"
+msgstr ""
+
+#. translators: %1$d: number of orders
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:133
+msgid "<strong style='font-size: 16px;'>%1$d shipment created.</strong>"
+msgid_plural "<strong style='font-size: 16px;'>%1$d shipments created.</strong>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %1$d: number of orders
+#: admin/class-sksoftware-speedy-for-woocommerce-create-bulk-shipment-action.php:158
+msgid "<strong style='font-size: 16px;'>%1$d shipment failed to create.</strong>"
+msgid_plural "<strong style='font-size: 16px;'>%1$d shipments failed to create.</strong>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-create-shipment-order-action.php:56
+msgid "Create Speedy shipment"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-create-shipment-order-action.php:68
+#: admin/class-sksoftware-speedy-for-woocommerce-delete-shipment-order-action.php:72
+#: admin/class-sksoftware-speedy-for-woocommerce-print-shipment-label-order-action.php:53
+msgid "Order shipping method must be Speedy."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-delete-shipment-order-action.php:60
+msgid "Delete Speedy shipment"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-delete-shipment-order-action.php:80
+msgid "Unable to delete Speedy shipment."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-delete-shipment-order-action.php:83
+msgid "Speedy shipment deleted."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:66
+msgid "Settings for your Speedy shipment."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:91
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:138
+msgid "Invalid post type."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:145
+msgid "Order shipping method is not Speedy."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:274
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:294
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:301
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:376
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:384
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:426
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:439
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:452
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:466
+msgid "No"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:275
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:295
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:302
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:385
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:427
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:440
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:467
+msgid "Yes"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:281
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:348
+msgid "Carton box"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:282
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:349
+msgid "Envelope"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:283
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:350
+msgid "Bag"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:284
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:351
+msgid "Box"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:285
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:352
+msgid "Box in envelope"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:286
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:353
+msgid "Stretch foil"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:287
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:354
+msgid "Bubble foil"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:288
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:355
+msgid "Nylon"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:308
+msgid "Deliver to Office"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:309
+msgid "Deliver to Address"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:310
+msgid "Deliver to APT"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:325
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:331
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:348
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:354
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:174
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:177
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:210
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:213
+msgid "Please choose"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:362
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:369
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:322
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:335
+msgid "Your client will pay"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:363
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:370
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:323
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:336
+msgid "I will pay"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:377
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:453
+msgid "Open"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:378
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:454
+msgid "Open and test"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:391
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:479
+msgid "Cash"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-order-meta-box.php:392
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:480
+msgid "Postal money transfer"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-print-shipment-label-order-action.php:47
+msgid "Order ID is missing."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-print-shipment-label-order-action.php:57
+msgid "Order must have a shipping label."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-print-shipment-label-order-action.php:66
+msgid "Failed to print shipment label."
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-recalculate-shipping-order-action.php:58
+msgid "Recalculate Speedy shipping"
+msgstr ""
+
+#: admin/class-sksoftware-speedy-for-woocommerce-recalculate-shipping-order-action.php:92
+msgid "Speedy shipping recalculated."
+msgstr ""
+
+#. translators: %s: weight unit
+#: admin/partials/meta_box_form_field.php:22
+msgid "Weight (in %s)"
+msgstr ""
+
+#. translators: %s: dimension unit
+#: admin/partials/meta_box_form_field.php:27
+msgid "Height (in %s)"
+msgstr ""
+
+#. translators: %s: dimension unit
+#: admin/partials/meta_box_form_field.php:32
+msgid "Width (in %s)"
+msgstr ""
+
+#. translators: %s: dimension unit
+#: admin/partials/meta_box_form_field.php:37
+msgid "Length (in %s)"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:40
+msgid "Delivery type"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:41
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:163
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:146
+msgid "Office"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:42
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:208
+msgid "APT"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:43
+msgid "Recipient Name"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:44
+msgid "Recipient Email"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:45
+msgid "Recipient Postal Code"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:46
+msgid "Recipient City"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:47
+msgid "Recipient Address Line 1"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:48
+msgid "Recipient Address Line 2"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:49
+msgid "Recipient Address Number"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:50
+msgid "Recipient Phone"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:51
+msgid "Recipient Vat Number"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:52
+msgid "Delivery Product"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:53
+msgid "Content"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:54
+msgid "Is fragile?"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:55
+msgid "Declare amount?"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:56
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:431
+msgid "Declared amount"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:57
+msgid "Cash on delivery?"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:58
+msgid "Cash on delivery amount"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:59
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:314
+msgid "Delivery payee"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:60
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:327
+msgid "Return payee"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:61
+msgid "Open or test before paying?"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:65
+msgid "Saturday delivery?"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:66
+msgid "Package type"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:67
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:471
+msgid "CoD processing type"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:73
+msgid "N/A"
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:82
+msgid "Shipment content (items)."
+msgstr ""
+
+#: admin/partials/meta_box_form_field.php:83
+msgid "Shipment item quantity."
+msgstr ""
+
+#: admin/partials/meta_box_output.php:7
+msgid "Unable to connect to Speedy API."
+msgstr ""
+
+#: admin/partials/meta_box_output.php:14
+msgid "General"
+msgstr ""
+
+#: admin/partials/meta_box_output.php:19
+msgid "Recipient"
+msgstr ""
+
+#: admin/partials/meta_box_output.php:24
+msgid "Shipping"
+msgstr ""
+
+#: admin/partials/meta_box_output.php:132
+msgid "It is strongly advised to change order status back to \"Pending payment\" when recalculating shipping price. Your client will not be notified about this change."
+msgstr ""
+
+#: admin/partials/meta_box_output.php:140
+msgid "Recalculate shipping"
+msgstr ""
+
+#: admin/partials/meta_box_output.php:144
+msgid "Create shipment"
+msgstr ""
+
+#: admin/partials/meta_box_output.php:153
+msgid "Track shipment"
+msgstr ""
+
+#: admin/partials/meta_box_output.php:157
+msgid "Review in courier"
+msgstr ""
+
+#: admin/partials/meta_box_output.php:161
+msgid "Delete shipment"
+msgstr ""
+
+#: admin/partials/settings_table_html.php:17
+msgid "Actions"
+msgstr ""
+
+#: admin/partials/settings_table_html.php:25
+msgid "Add new row"
+msgstr ""
+
+#: admin/partials/settings_table_row_html.php:15
+msgid "Delete"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-api-client.php:354
+#: includes/class-sksoftware-speedy-for-woocommerce-api-client.php:363
+msgid "Unable to create Speedy shipment."
+msgstr ""
+
+#. translators: %s: Shipment number
+#: includes/class-sksoftware-speedy-for-woocommerce-order-utilities.php:108
+msgid "Speedy shipment created."
+msgstr ""
+
+#. translators: %s: Shipment number
+#: includes/class-sksoftware-speedy-for-woocommerce-order-utilities.php:108
+msgid "Shipment ID %s."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:50
+msgid "Allows customers to receive shipments using Speedy."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:121
+msgid "SK Software API Key"
+msgstr ""
+
+#. translators: 1: SK Software Speedy for WooCommerce plugin link 2: Start free trial link
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:125
+msgid "API Key provided by SK Software Ltd. You can buy a license on %1$s or %2$s"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:135
+msgid "Username"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:137
+msgid "You can get your username and password by contacting Speedy."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:144
+msgid "Password"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:155
+msgid "Send from"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:157
+msgid "Choose whether you will ship your orders from Speedy Office or Address."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:161
+msgid "office"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:164
+msgid "Address"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:168
+msgid "Client to send from"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:170
+msgid "Choose from which Speedy client you will send your orders."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:183
+msgid "Sender name"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:185
+msgid "Your first and last name."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:189
+msgid "Sender phone number"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:191
+msgid "Your phone number."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:195
+msgid "Sender e-mail address"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:197
+msgid "Your e-mail address."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:204
+msgid "Office to send from"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:206
+msgid "Choose from which Speedy office you will send your orders."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:219
+msgid "Send tracking link"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:221
+msgid "This option can send the tracking number of the shipment to the customer. If the shipment you generated has a tracking number, it will automatically send a note to the customer."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:235
+msgid "Title"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:237
+msgid "This controls the title of the shipping method, which the user sees during checkout."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:244
+msgid "Description"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:246
+msgid "This controls the description of the shipping method, which the user sees during checkout."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:316
+msgid "This controls who will pay for the delivery of your shipment."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:329
+msgid "This controls who will pay the return shipping of your shipment."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:340
+msgid "Default package type"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:341
+msgid "Package type to be used for shipments."
+msgstr ""
+
+#. translators: %s: weight unit
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:361
+msgid "Default product weight in %s"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:365
+msgid "Weight to be used for products that are without weight."
+msgstr ""
+
+#. translators: %s: dimension unit
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:374
+msgid "Default box height in %s"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:378
+msgid "Height to be used for shipment volume."
+msgstr ""
+
+#. translators: %s: dimension unit
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:384
+msgid "Default box width in %s"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:388
+msgid "Width to be used for shipment volume."
+msgstr ""
+
+#. translators: %s: dimension unit
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:394
+msgid "Default box length in %s"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:398
+msgid "Length to be used for shipment volume."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:402
+msgid "Speedy service"
+msgstr ""
+
+#. translators: %s: Speedy link
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:406
+msgid "Choose which Speedy service to be used. More information about delivery time, pricing and maximum weight of each service can be found in %s."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:418
+msgid "Fragile label"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:420
+msgid "Choose if your shipment should be marked as fragile."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:433
+msgid "Choose if your shipment should have a declared amount. The declared amount will be equal to the order price, exluding shipping."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:444
+msgid "Open and/or test before payment"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:446
+msgid "Can the recipient open and/or test the shipment before paying?"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:458
+msgid "Saturday delivery"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:460
+msgid "Can the recipient receive his package on Saturday?"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:473
+msgid "How would you like to receive your money when sending shipments with CoD?"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:484
+msgid "Pricing override"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:486
+msgid "This table allows you to change the price according to the conditions set in it. You can learn more about how it works and sample settings for different cases in our documentation."
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:492
+msgid "Type"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:495
+msgid "Flat rate"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:496
+msgid "Merchant pays all below"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:500
+msgid "Merchant pays all above"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:507
+msgid "Order amount equal or above"
+msgstr ""
+
+#. translators: %s: weight unit
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:513
+msgid "Weight equal or below in %s"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:519
+msgid "Shipping cost equals"
+msgstr ""
+
+#: includes/class-sksoftware-speedy-for-woocommerce-shipping-method.php:604
+msgid "Unable to authenticate Speedy. Please check your API keys and try again."
+msgstr ""
+
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:145
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:149
+msgid "Select an office"
+msgstr ""
+
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:207
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:213
+msgid "Select APT"
+msgstr ""
+
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:275
+msgid "<strong>Office</strong> is required field."
+msgstr ""
+
+#: public/class-sksoftware-speedy-for-woocommerce-public.php:300
+msgid "<strong>APT</strong> is required field."
+msgstr ""

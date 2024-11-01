@@ -1,0 +1,10 @@
+.sksoftware-speedy-for-woocommerce-select2 .select2-container {
+	position: relative;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+
+.sksoftware-speedy-for-woocommerce-select2 {
+	padding: 5px 0;
+}
